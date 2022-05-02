@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: #194c8a
+}
+
+@keyframes btnani {
+    0% {
+        background: #2e4c66;
+        color: #173b5e;
+        transform: scale(1, 1);
+    }
+
+    100% {
+        color: #fff;
+        background: #173b5e;
+        transform: scale(1.2, 1.2);
+    }
+}
+
+img {
+    width: 70%;
+    max-width: 100%;
+}
+
+img:hover {
+        animation: btnani .7s linear 1;
+        transform: scale(1.2, 1.2);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    box-shadow: 0px 0px 13px 2px #c2d7f0;
+}
+
+
+header div {
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 10px;
+
+}
+
+.logo {
+    font-family: 'Ingrid Darling', cursive;
+    font-size: 50px;
+    font-weight: normal;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 0px;
+}
+
+nav li {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+nav a {
+    display: block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #27486e;
+    border-radius: 5px;
+    background-color: #e9edf0;
+}
+
+nav a:hover {
+    animation: btnani .5s linear 1;
+    color: #fff;
+    background: #27486e;
+    transform: scale(1.2, 1.2);
+}
+
+a {
+    color: #194c8a;
+}
+
+
+
+i:hover {
+    animation: btnani .5s linear 1;
+    color: #fff;
+    background: #27486e;
+    transform: scale(1.2, 1.2);
+}
+
+h3 {
+    font-family: 'Ingrid Darling', cursive;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.btn {
+    border-radius: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 2px;
+    background-color: #f2f6fa;
+
+}
+
+.btn:hover {
+    animation: btnani .5s linear 1;
+    color: #fff;
+    background: #082f5e;
+    transform: scale(1.2, 1.2);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px 1px #c2d7f0;
+}
+
+.tc {
+    text-align: center;
+}
+
+.otc{
+        display: flex;
+        justify-content: center;
+}
+
+.c67 {
+    width: 67%;
+}
+
+.c33 {
+    width: 33%;
+}
+
+.c25 {
+    width: 25%;
+}
+
+.c50 {
+    width: 50%;
+}
+
+.c100 {
+    width: 100%;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+
+    .c25,
+    .c33,
+    .c50,
+    .c67,
+    .c100 {
+        width: 100%;
+        box-shadow: ;
+    }
+}
